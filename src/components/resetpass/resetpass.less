@@ -1,0 +1,130 @@
+.reset {
+    background-color: #f2f2f2;
+    .title {
+        display: flex;
+        .title-text{
+            position: relative;
+            left: 1.5rem;
+            text-align: center;
+            font-size: 0.6rem;
+            padding:20px;
+        }
+        .back {
+            position: relative;
+            top: 0;
+            flex: 1;
+            background: url(back2.png) no-repeat;
+            background-size: 1rem;
+            height: 1rem;
+            width: 2rem;
+            display:inline-block;
+        }
+    }
+    .input {
+        background-color: #f2f2f2;
+        height: 16.3rem;
+        border-style: none;
+        .login-input {
+            font-size: 0.5rem;
+            
+            .user {
+                width: 80%;
+                background-color: #f2f2f2;
+                border-style:none;
+                margin: 0 0.8rem;
+                padding: 0.3rem 0.2rem;
+                display: block;
+                border-bottom-style: solid;
+                border-bottom-color: #c9c9c9;
+            }
+            
+        }
+        .pass-input {
+            font-size: 0.5rem;
+            position: relative;
+            clear: both;
+            .pass {
+                width: 80%;
+                background-color: #f2f2f2;
+                border-style:none;
+                margin: 0.2rem 0.8rem;
+                padding: 0.3rem 0.2rem;
+                display: block;
+                border-bottom-style: solid;
+                border-bottom-color: #c9c9c9;
+            }
+            .viewPass {
+                height: 1rem;
+                width: 2rem;
+                display: inline-block;
+                background-image: url(eyeview.png);
+                background-size: 1rem;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: center;
+                position: absolute;
+                top: 0;
+                right: 30px;
+                &.hide {
+                    display: none;
+                }
+            }
+            
+
+
+        }
+        .vcode-input {
+            font-size: 0.5rem;
+            position: relative;
+            .pass{
+                width: 80%;
+                background-color: #f2f2f2;
+                border-style:none;
+                margin: 0.2rem 0.8rem;
+                padding: 0.3rem 0.2rem;
+                display: block;
+                border-bottom-style: solid;
+                border-bottom-color: #c9c9c9;
+            }
+            .getvCode{
+                
+                
+                    display: inline-block;
+                    position: absolute;
+                    top: -30px;
+                    right: 60px;
+                    
+                    
+                    font-size: 0.4rem;
+                    width: 30%;
+                    padding: 0.2rem 0.2rem;
+                    margin: 0.5rem 0;
+                    color: #b91d21;
+                    
+                    background-color: #F2f2f2;
+                    border-style: solid;
+                    border-color: #b91d21;
+                
+            }
+        }
+        .btn {
+            margin: 20px 20px;
+            text-align: center;
+            
+            
+            .submit {
+                font-size: 0.4rem;
+                width: 90%;
+                padding: 0.4rem 0.2rem;
+                color: #fff;
+                margin: 0.5rem 0;
+                border-radius: 2rem;
+                background-color: #b91d21;
+                filter:progid:DXImageTransform.Microsoft.Shadow(color='#d2c2dc', Direction=135,Strength=5);
+                -webkit-box-shadow: 0 10px 10px #d2c2dc;
+                box-shadow:  0 10px 10px #d2c2dc;
+            }
+            
+        }
+    }
+}

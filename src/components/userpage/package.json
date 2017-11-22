@@ -1,0 +1,6 @@
+{
+    "name": "userpage",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./userpage.js"
+  }
