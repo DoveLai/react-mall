@@ -1,6 +1,6 @@
 import React from 'react';
 import './app.less';
-import Login from '../login';
+import UserPage from '../userpage';
 
 // const sss = React
 
@@ -14,7 +14,7 @@ export default React.createClass({
         
         return (
             <section className="mall">
-                    <Login />
+                    <UserPage />
             </section>
         );
     },

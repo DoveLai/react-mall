@@ -99,7 +99,7 @@ export default React.createClass({
                     </div>
                     <form  className="login-form"onSubmit={this.submitHandler}>
                         <div className="login-input">
-                            <input className="user"placeholder="请输入手机号" type="text" 
+                            <input className="user"placeholder="登录名/手机号/邮箱" type="text" 
                             onChange={ this.handleUserChange }/>
                             
                         </div>
@@ -137,18 +137,19 @@ export default React.createClass({
                             <button className="login"  type="submit">登录</button>
                             
                         </div>
-                    </form>
-                    <div className="btn">
-                        <button className="alter_login" 
-                            onClick={this.handleAlterLogin}
-                            >{ this.state.loginText }</button>
+                        <div className="btn">
+                            <button className="alter_login" 
+                                onClick={this.handleAlterLogin}
+                                >{ this.state.loginText }</button>
                         </div>
+                    </form>
+                    
                     <div className="other">
                         <Link to="/setup">
-                            <span className="signup">还没有账号？快速注册</span>
+                            <span className="signup">请使用鸿包商城账号~</span>
                             </Link>
                         <Link to="/reset">
-                            <span className="forgetPass">忘记密码!</span>
+                            <span className="forgetPass">忘记密码?</span>
                             </Link>
                     </div>
             </section>

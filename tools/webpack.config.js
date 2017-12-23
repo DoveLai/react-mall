@@ -102,9 +102,11 @@ const config = {
           'modules&localIdentName=[name]_[local]_[hash:base64:3]',
           'postcss-loader',
         ],
-      }, { 
-        test: /\.css$/, 
-        loader: 'style-loader!css-loader' 
+      }, {
+        test: /\.css$/,
+        loader: 
+          'style-loader!css-loader',
+        
       }, {
         test: /\.json$/,
         loader: 'json-loader',
@@ -150,7 +152,7 @@ const clientConfig = merge({}, config, {
   plugins: [
     new ExtractTextPlugin(DEBUG ? '[name].css?[contenthash]' : '[name].[contenthash].css'),
     new HtmlWebpackPlugin({
-      title: '今日头条',
+      title: '在线商城',
       template: 'entries/index.html',
       inject: 'body',
       filename: 'index.html',

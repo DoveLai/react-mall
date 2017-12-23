@@ -1,0 +1,6 @@
+{
+    "name": "Attend",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./attend.js"
+  }

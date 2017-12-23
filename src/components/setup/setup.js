@@ -92,7 +92,7 @@ export default React.createClass({
                     </div>
                 </form>
                 <div className="other">
-                    <Link to="/">
+                    <Link to="/login">
                         <span className="loginnow">已有账号！立即登录</span>
                         </Link></div>
             </section>

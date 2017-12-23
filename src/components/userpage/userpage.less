@@ -1,13 +1,284 @@
 .page {
+    background-color: #f2f2f2;
     .title {
+        height: 4rem;
+        color: #f2f2f2;
+        display: flex;
         background-color: #b91d21;
         .icon {
-
+           
+            flex: 1;
+            display:inline-block;
+            
+            background: url("../../public/images/avatar.png") no-repeat ;
+            background-size: 1.6rem;
+            background-position: center center;
+            
         }
         .profile {
+            flex: 3;
             .detail {
+                font-size: 0.4rem;
+                position: relative;
+                top: 0.9rem;
+                
+                .nickname {
+                    .text {
+
+                    }
+                    .logout {
+                        position: relative;
+                        top: 0.4rem;
+                        background: url("../../public/images/switch.1.png") no-repeat ;
+                        background-size: 0.8rem;
+                        display:inline-block;
+                        height: 1rem;
+                        width: 3rem;
+                    }
+                }
+                .user {
+                    font-size: 0.4rem;
+                }
+                padding: 0.2rem 0.2rem;
+            }
+        }
+    }
+    .totalProperty {
+        position: relative;
+        
+        .tp-image-box {
+            height: 4rem;
+            
+
+        }
+        .tp-image{
+            position: relative;
+            background: url(../../public/images/return-money.png) no-repeat;
+            background-size: 100% 100%;
+            width:4rem;
+            height: 2.4rem;
+            margin:auto;
+            top: .8rem;
+        }
+        .live {
+            position: relative;
+            left: 24%;
+            display: inline-block;
+            height: 4rem;
+            width: 4rem;
+            border: 0.3rem solid #b91d21;
+
+            background-repeat: no-repeat;
+            background-size: 20%;
+            border-radius: 50%;
+            border-bottom-color: #f2f2f2;
+            border-left-color: #f2f2f2;
+            -moz-transform:rotate(-45deg);
+            -webkit-transform:rotate(-45deg);
+             filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+        }
+        .spin {
+            position: relative;
+            top: -200px;
+            left: 30px;
+            .m-load,.m-load2{width:36px;height:36px;margin:0px auto;}
+            /*.m-load{background:url('load-v1.gif') #535353 center center no-repeat;}*/
+             .m-load2{background:#f2f2f2;}
+             
+             /** 加载动画的静态样式 **/
+             .m-load2{position:relative;}
+             .m-load2 .line div{position:absolute;left:16px;top:0;width:6px;height:72px;}
+             .m-load2 .line div:before,.m-load2 .line div:after{content:'';display:block;height:50%;background:#b91d21;border-radius:5px;}
+             .m-load2 .line div:nth-child(2){-webkit-transform:rotate(30deg);}
+             .m-load2 .line div:nth-child(3){-webkit-transform:rotate(60deg);}
+             .m-load2 .line div:nth-child(4){-webkit-transform:rotate(90deg);}
+             .m-load2 .line div:nth-child(5){-webkit-transform:rotate(120deg);}
+             .m-load2 .line div:nth-child(6){-webkit-transform:rotate(150deg);}
+             .m-load2 .circlebg{position:absolute;left:50%;top:50%;width:36px;height:36px;margin:-3px 0 0 -18px;background:#f2f2f2;border-radius:18px;}
+             .m-load2 .recbg{position:absolute; left:50%; top: 50%;width: 36px;height:36px;margin: -3px 0 0 -18px;background: #f2f2f2;}
+             /** 加载动画 **/
+             @-webkit-keyframes load{
+                 0%{opacity:0;}
+                 100%{opacity:1;}
+             }
+             .m-load2 .line div:nth-child(1):before{-webkit-animation:load 1.2s linear 0s infinite;
+            -webkit-animation-iteration-count: 1;}
+             .m-load2 .line div:nth-child(2):before{-webkit-animation:load 1.2s linear 0.1s infinite;}
+             .m-load2 .line div:nth-child(3):before{-webkit-animation:load 1.2s linear 0.2s infinite;}
+             .m-load2 .line div:nth-child(4):before{-webkit-animation:load 1.2s linear 0.3s infinite;}
+             .m-load2 .line div:nth-child(5):before{-webkit-animation:load 1.2s linear 0.4s infinite;}
+             .m-load2 .line div:nth-child(6):before{-webkit-animation:load 1.2s linear 0.5s infinite;}
+             .m-load2 .line div:nth-child(1):after{-webkit-animation:load 1.2s linear 0.6s infinite;
+                -webkit-animation-iteration-count: 1;}
+             .m-load2 .line div:nth-child(2):after{-webkit-animation:load 1.2s linear 0.7s infinite;
+                -webkit-animation-iteration-count: 1;}
+             .m-load2 .line div:nth-child(3):after{-webkit-animation:load 1.2s linear 0.8s infinite;
+                -webkit-animation-iteration-count: 1;}
+             .m-load2 .line div:nth-child(4):after{-webkit-animation:load 1.2s linear 0.9s infinite;
+                -webkit-animation-iteration-count: 1;}
+             .m-load2 .line div:nth-child(5):after{-webkit-animation:load 1.2s linear 1s infinite;}
+             .m-load2 .line div:nth-child(6):after{-webkit-animation:load 1.2s linear 1.1s infinite;}
+        }
+        .detail {
+            
+            text-align: center;
+            position: absolute;
+            top: 2.4rem;
+            width: 100%;
+            .text {
 
             }
         }
+        
+    }
+    .more {
+        padding: 0.2rem;
+        padding-bottom:5.6rem;
+        .returned {
+            
+            border-bottom:1px solid #c2c2c2;
+            background-color: #fff;
+            padding: 0.2rem;
+            display:flex;
+            .icon {
+                height: 0.01rem;
+                width: 0.01rem;
+                padding: 0.2rem;
+                background-color: #b91d21;
+                
+                display: inline-block;
+            }
+            .text {
+                flex: 5;
+                padding: 0.2rem;
+            }
+            .number {
+                flex: 4;
+                padding: 0.2rem;
+                text-align: right;
+
+            }
+        }
+        .remaining {
+            
+            border-bottom:1px solid #c2c2c2;
+            background-color: #fff;
+            padding: 0.2rem;
+            display: flex;
+            .icon {
+                height: 0.01rem;
+                width: 0.01rem;
+                padding: 0.2rem;
+                background-color: #b91d21;
+                
+                display: inline-block;
+            }
+            .text {
+                flex: 5;
+                padding: 0.2rem;
+            }
+            .number {
+                flex:4;
+                padding: 0.2rem;
+                text-align: right;
+
+            }
+
+        }
+    }
+    .other {
+        
+        width: 100%;
+        .btns {
+            width:100%;
+            .btn{
+            display:block;
+            position: relative;
+            
+            text-align: center;
+             left: 25%;
+             
+            
+                font-size: 0.4rem;
+                width: 50%;
+                padding: 0.4rem 0.2rem;
+                color: #fff;
+                margin: 0.5rem 0;
+                border-radius: 1.5rem;
+                background-color: #b91d21;
+                filter:progid:DXImageTransform.Microsoft.Shadow(color='#d2c2dc', Direction=135,Strength=5);
+                -webkit-box-shadow: 0 10px 10px #d2c2dc;
+                box-shadow:  0 10px 10px #d2c2dc;
+            }
+             
+
+        }
+        .faq {
+            text-align: center;
+            padding: 0.2rem;
+            
+
+        }
+    }
+    .footer {
+        position: fixed;
+        height: 1.5rem;
+        background-color: #f2f2f2;
+        bottom:0;
+        left: 0;
+        display:flex;
+        align-items:center;
+        width: 10rem;
+        a{
+            flex:1;
+            text-align:center;
+        }
+        .footer-nav{
+            
+            
+            
+
+        }
+        .i-home {
+            display:block;
+            background: url(../../public/images/home0.png) no-repeat;
+            height: 1rem;
+            width: 1rem;
+            background-size: .8rem;
+            position: relative;
+            left: 30%;
+            background-position: center center;
+        }
+        .i-attend {
+            display:block;
+            background: url(../../public/images/attend0.png) no-repeat;
+            height: 1rem;
+            width: 1rem;
+            background-size: .8rem;
+            position: relative;
+            left: 30%;
+            background-position: center center;
+        }
+        .i-center {
+            display:block;
+            background: url(../../public/images/center0.png) no-repeat;
+            height: 1rem;
+            width: 1rem;
+            background-size: .8rem;
+            position: relative;
+            left: 30%;
+            background-position: center center;
+        }
+        .i-record {
+            display:block;
+            background: url(../../public/images/record0.png) no-repeat;
+            height: 1rem;
+            width: 1rem;
+            background-size: .8rem;
+            position: relative;
+            left: 30%;
+            background-position: center center;
+        }
+
     }
 }

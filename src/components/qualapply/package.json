@@ -1,0 +1,6 @@
+{
+    "name": "qualapply",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./qualapply.js"
+  }
