@@ -9,7 +9,7 @@
            
             flex: 1;
             display:inline-block;
-            
+            height: 100%;
             background: url("../../public/images/avatar.png") no-repeat ;
             background-size: 1.6rem;
             background-position: center center;
@@ -20,9 +20,15 @@
             .detail {
                 font-size: 0.4rem;
                 position: relative;
-                top: 0.9rem;
+                //top: 0.9rem;
                 
                 .nickname {
+                    a span {
+                        color: white;
+                    }
+                    a span:hover {
+
+                    }
                     .text {
 
                     }
@@ -232,6 +238,10 @@
         a{
             flex:1;
             text-align:center;
+        }
+        a:hover{
+            color: #b21d21;
+            background-color: #ccc;
         }
         .footer-nav{
             

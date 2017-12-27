@@ -11,6 +11,8 @@ import UserPage from './components/userpage';
 import Login from './components/login';
 import Attend from './components/attend';
 import QualApply from './components/qualapply';
+import Center from './components/center';
+import Record from './components/record';
 
 
 window.React = React;
@@ -38,6 +40,8 @@ function bootstrap() {
                     <Route path="/login" component={Login}/>
                     <Route path="/attend" component={Attend}/>
                     <Route path="/qualapply" component={QualApply}/>
+                    <Route path="/center" component={Center}/>
+                    <Route path="/record" component={Record}/>
                 </div>
             
             </Router>

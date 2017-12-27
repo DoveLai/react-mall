@@ -1,0 +1,47 @@
+.title {
+    
+    font-size: 16px;
+    background-color: #b21d21;
+    color: #fff;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title .icon {
+    position: relative;
+    top: 0;
+    
+    background: url(../../public/images/back2zige.png) no-repeat;
+    background-size: .5rem;
+    height: .5rem;
+    width: .5rem;
+    display:inline-block;
+    
+    
+}
+.title .text {
+    flex: 1;
+    margin-right: 32px;
+    text-align: center;
+}
+.list {
+
+}
+.list .detail {
+    display: flex;
+    padding: 0.4rem;
+    border-bottom-style: solid;
+    border-color: #c2c2c2;
+    font-size: .3rem;
+}
+.list .detail .left {
+    flex: 1;
+    padding-left: 3%;
+}
+.list .detail .right {
+    
+}
+.list .detail .right.fail {
+    color: #b21d21;
+}

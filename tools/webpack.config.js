@@ -152,7 +152,7 @@ const clientConfig = merge({}, config, {
   plugins: [
     new ExtractTextPlugin(DEBUG ? '[name].css?[contenthash]' : '[name].[contenthash].css'),
     new HtmlWebpackPlugin({
-      title: '在线商城',
+      title: 'fanxianbao',
       template: 'entries/index.html',
       inject: 'body',
       filename: 'index.html',

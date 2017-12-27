@@ -1,0 +1,207 @@
+body {
+    max-width: 10rem;
+    min-width: 300px;
+    
+}
+.title {
+    
+    font-size: 16px;
+    background-color: #ffffff;
+    height: 45px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title .i-back {
+    position: relative;
+    top: 0;
+    
+    background: url(../../public/images/back2zige.png) no-repeat;
+    background-size: .5rem;
+    height: .5rem;
+    width: .5rem;
+    display:inline-block;
+    
+}
+.title .text {
+    flex: 1;
+    margin-right: 32px;
+    text-align: center;
+}
+.main {
+    background-color: #b21d21;
+    color: #fff;
+    font-size: 0.2rem;
+}
+.main .available {
+    text-align: center;
+    padding: 0.18rem;
+}
+.main .available .data.number {
+    font-size: .4rem;
+}
+.main .intro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main .intro .left {
+    flex: 1;
+    padding: 1rem;
+    
+    
+}
+.main .intro .intro.text {
+    
+}
+.main .intro .right {
+    padding: 0.7rem;
+    flex: 1;
+    
+}
+.intro .text .data.returned {
+    font-size: .4rem;
+}
+.process {
+
+}
+.process .application {
+    display: flex;
+    border-bottom: solid #f2f2f2;
+    padding: 0.2rem;
+    height: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+.process .application:hover {
+    color: #b21d21;
+    background-color: #c2c2c2;
+}
+.process .application .icon {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background-image: url(../../public/images/iconfont.png) ;
+    background-position: -100px -100px;
+    
+    
+    
+    margin-left: 3%;
+}
+.process .application .text {
+    font-size: .3rem;
+    flex: 9;
+}
+.process .application .next {
+    background: url(../../public/images/next.png) no-repeat;
+    background-size: .3rem;
+    height: .3rem;
+    width: .6rem;
+    display:inline-block;
+    flex: 1;
+}
+.process .processing {
+    display: flex;
+    border-bottom: solid #f2f2f2;
+    padding: 0.2rem;
+    height: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+.process .processing:hover {
+    color: #b21d21;
+    background-color: #c2c2c2;
+}
+.process .processing .icon {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background-image: url(../../public/images/iconfont.png) ;
+    background-position: -100px -60px;
+    
+    margin-left: 3%;
+}
+.process .processing .text {
+    font-size: .3rem;
+    flex: 9;
+}
+.process .processing .next {
+    background: url("../../public/images/next.png") no-repeat;
+    background-size: .3rem;
+    height: .3rem;
+    width: .5rem;
+    display:inline-block;
+    flex: 1;
+}
+.process .processed {
+    display: flex;
+    border-bottom: solid #f2f2f2;
+    padding: 0.2rem;
+    height: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+.process .processed:hover {
+    color: #b21d21;
+    background-color: #c2c2c2;
+}
+.process .processed .icon {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background-image: url(../../public/images/iconfont.png) ;
+    background-position: -180px -60px;
+    
+    margin-left: 3%;
+}
+.process .processed .text {
+    font-size: .3rem;
+    flex: 9;
+}
+.process .processed .next {
+    background: url("../../public/images/next.png") no-repeat;
+    background-size: .3rem;
+    height: .3rem;
+    width: .5rem;
+    display:inline-block;
+    flex: 1;
+}
+.process .record {
+    display: flex;
+    border-bottom: solid #f2f2f2;
+    padding: 0.2rem;
+    height: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+.process .record:hover {
+    color: #b21d21;
+    background-color: #c2c2c2;
+}
+.process .record .icon {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background-image: url(../../public/images/iconfont.png) ;
+    background-position: -180px -20px;
+    
+    margin-left: 3%;
+}
+.process .record .text {
+    font-size: .3rem;
+    flex: 9;
+}
+.process .record .next {
+    background: url("../../public/images/next.png") no-repeat;
+    background-size: .3rem;
+    height: .3rem;
+    width: .5rem;
+    display:inline-block;
+    flex: 1;
+}
+h2,p {
+    margin: 0;
+    font-weight: normal;
+}

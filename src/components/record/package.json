@@ -1,0 +1,6 @@
+{
+    "name": "record",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./record.js"
+  }
